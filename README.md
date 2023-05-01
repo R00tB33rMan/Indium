@@ -1,5 +1,5 @@
 # Indium
-Indium is an addon for the rendering optimisation mod [Sodium](https://modrinth.com/mod/sodium), providing support for the Fabric Rendering API. The Fabric Rendering API is required for many mods that use advanced rendering effects, and is currently not supported by Sodium directly. Indium is based upon the reference implementation Indigo, which is part of Fabric API with source available [here](https://github.com/FabricMC/fabric/tree/1.17/fabric-renderer-indigo). (licensed Apache 2.0)
+Indium is an addon for the rendering optimization mod [Sodium](https://modrinth.com/mod/sodium), providing support for the Fabric Rendering API. The Fabric Rendering API is required for many mods that use advanced rendering effects, and is currently not supported by Sodium directly. Indium is based upon the reference implementation Indigo, which is part of Fabric API with source available [here](https://github.com/FabricMC/fabric/tree/1.17/fabric-renderer-indigo). (licensed Apache 2.0)
 
 # Frequently Asked Questions
 ## Which mods require Indium?
@@ -10,7 +10,7 @@ Continuity, Packages, and many more. Some of these mods may function without an 
 Indium's impact on performance should be negligible, however mods that use the Fabric Rendering API could themselves impact performance. Indium will not provide a performance benefit over using only Sodium.
 
 ## Is Indium a replacement for Sodium?
-No, Indium is an addon mod for Sodium - you must use both mods together to get Fabric Rendering API support with Sodium's rendering optimisations.
+No, Indium is an addon mod for Sodium - you must use both mods together to get Fabric Rendering API support with Sodium's rendering optimizations.
 
 ## Do I need Indium if I don't use Sodium?
 No, Indigo (not In*dium*) is provided as part of Fabric API as the reference implementation of the Fabric Rendering API. Indigo disables itself when Sodium is installed.
